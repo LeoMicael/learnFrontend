@@ -1,0 +1,42 @@
+<head>
+<title>Aulas Alura</title>
+<body>
+	<canvas width= "600" height= "400"></canvas>
+<script>
+	const tela = document.querySelector("canvas")
+	const pincel = tela.getContext("2d")
+	// Cabeça do Creeper	
+	pincel.fillStyle = "darkGreen"
+	pincel.fillRect(0, 0, 350, 300)
+
+	//Olhos n1
+	pincel.fillStyle = "black"
+	pincel.beginPath()
+	pincel.fillRect(50, 70, 90, 90)
+	pincel.fill()
+	//olho 2
+	pincel.fillStyle = "black"
+	pincel.beginPath()
+	pincel.fillRect(210, 70, 90, 90)
+	pincel.fill()
+	//nariz
+	pincel.fillStyle = "black"
+	pincel.beginPath()
+	pincel.fillRect(140, 160, 70, 100)
+	pincel.fill()
+	//boca1
+	pincel.fillStyle = "black"
+	pincel.beginPath()
+	pincel.fillRect(100, 195, 40, 100)
+	pincel.fill()
+	//boca2
+	pincel.fillStyle = "black"
+	pincel.beginPath()
+	pincel.fillRect(210, 195, 40, 100)
+	pincel.fill()
+
+
+	
+</script>
+</body>
+</head>
